@@ -266,6 +266,33 @@ display: none;
     text-transform: capitalize;
 }
 
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    justify-content: center;
+    margin-bottom: 50px;
+
+
+}
+.foot p{
+    font-size: 30px;
+    font-weight:300 ;
+    opacity: 0.9;
+    user-select: none;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.foot a{
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    opacity: 0.8;
+    color: black;
+}
 
 /* 
 .tab.current-tab {
