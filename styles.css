@@ -38,6 +38,13 @@
         background-repeat: no-repeat;
 
     }
+    
+}
+
+@media(max-width:200px){
+    .parameter-container{
+        flex-direction: column;
+    }
 }
 
 h1{
@@ -184,6 +191,7 @@ display: none;
     gap: 10px 20px;
     justify-content: center;
     align-items: center;
+    /* flex-wrap: wrap; */
     margin-top: 2rem;
 }
 
@@ -289,12 +297,17 @@ display: none;
     gap: 10px;
     background-color: transparent;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    position: fixed;
+    bottom: 30px;
+  
+    
+    
 
 
 }
 .foot p{
-    font-size: 30px;
+    font-size: 20px;
     font-weight:300 ;
     opacity: 0.9;
     user-select: none;
